@@ -7,16 +7,16 @@ import time
 def ali():
     app_id = "2016082600315127"
     # POST
-    notify_url = "http://47.95.220.106:8000/page2/"
+    notify_url = "http://172.17.150.192:8000/page2/"
     # notify_url = "http://www.wupeiqi.com:8804/page2/"
     # GET
-    return_url = "http://47.95.220.106:8000/page2/"
+    return_url = "http://172.17.150.192:8000/page2/"
     # return_url = "http://www.wupeiqi.com:8804/page2/"
 
     # merchant_private_key_path = "keys/pri"
     # alipay_public_key_path = "keys/pub"
-    merchant_private_key_path = "keys/app_private_2048.txt"
-    alipay_public_key_path = "keys/alipay_public_2048.txt"
+    merchant_private_key_path = "keys/pri"
+    alipay_public_key_path = "keys/pub"
 
     alipay = AliPay(
         appid=app_id,
